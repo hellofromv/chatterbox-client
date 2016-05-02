@@ -10,6 +10,7 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <!-- your scripts -->
     <script src="env/config.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
     <script src="scripts/app.js"></script>
   </head>
   <body>
@@ -18,5 +19,18 @@
       <!-- Your HTML goes here! -->
     </div>
     <div id="chats"></div>
+
+    <div>Room: 
+      <select name="msg" id="roomSelect">
+        <option value="None" selected>Choose A Room</option>
+      </select>
+    </div>
+
+    
+    <div>
+      <input type="text" id="messsage_box"/>
+      <input type="button" id="new_message" value="Submit"/>
+    </div>
+
   </body>
 </html>
