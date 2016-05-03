@@ -5,6 +5,29 @@
     <title>chatterbox</title>
     <link rel="stylesheet" href="styles/styles.css">
 
+  </head>
+  <body>
+
+  <div class="container">
+    <div id="main">
+      <h1>chatterbox</h1>
+      <!-- Your HTML goes here! -->
+      <div>Room: 
+        <select name="msg" id="roomSelect">
+          <option value="None" selected>Choose A Room</option>
+        </select>
+      </div>
+      <div>
+        <input type="text" id="message_box" name="message"/>
+        <input type="button" id="new_message" value="Send"/>
+      </div>
+    </div> <!--close main-->
+
+    <div id="chats">
+      
+    </div>
+  </div>
+
     <!-- dependencies -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -12,25 +35,5 @@
     <script src="env/config.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
     <script src="scripts/app.js"></script>
-  </head>
-  <body>
-    <div id="main">
-      <h1>chatterbox</h1>
-      <!-- Your HTML goes here! -->
-    </div>
-    <div id="chats"></div>
-
-    <div>Room: 
-      <select name="msg" id="roomSelect">
-        <option value="None" selected>Choose A Room</option>
-      </select>
-    </div>
-
-    
-    <div>
-      <input type="text" id="messsage_box"/>
-      <input type="button" id="new_message" value="Submit"/>
-    </div>
-
   </body>
 </html>

@@ -15,6 +15,10 @@ body {
     border-width: 0 1px 1px 1px;
 }
 
+#main {
+  margin-top: 65px;
+}
+
 #main h1 {
     margin-top: 0;
     font-size: 35px;
@@ -88,3 +92,15 @@ form input[type=text] {
     background-color: #0090da;
 }
 
+/*Messenger App*/
+
+#message_box {
+  margin-top: 10px;
+  width: 350px;
+  height: 20px;
+}
+
+.container {
+  float: right;
+  padding-right: 200px;
+}
