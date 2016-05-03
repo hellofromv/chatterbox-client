@@ -100,7 +100,16 @@ form input[type=text] {
   height: 20px;
 }
 
-.container {
+/*.container {
   float: right;
   padding-right: 200px;
+}*/
+
+#newRoomName {
+    margin-left: 21px;
+}
+
+.friend_list {
+    margin-top: 65px;
+    background-color: lightblue;
 }
