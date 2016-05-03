@@ -1,7 +1,5 @@
 var app = {};
 
-// var username = window.location.search;
-
 var getUserName = function(user) {
   var indexToSlice = _.indexOf(user, '=');
 
@@ -88,5 +86,7 @@ $('body').delegate('blink', 'click', function(user) {
 
 
 $(document).ready(function() {
+  app.init();
+  app.send();
   app.fetch();
 });
